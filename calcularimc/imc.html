@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calcular IMC</title>
+    <link rel="stylesheet" href="imc.css">
+    <script src="imc.js" defer=""></script>
+</head>
+<body>
+    <div id="barra_lateral" class="barra_lateral_css">
+        <button id="botao_expandir_lateral" class="botao_barra_lateral">
+            <img id="imagem_logo" class="logo_meu_site" src="../iconmenu.webp"/>
+        </button>
+        <button class="botao_calcular_agua">
+            <h4 id="palavra_cal_altura"></h4>
+            <img id="icon_gota" class="icon_logo" src="../gota.webp">
+        </button>
+
+        <button class="botao_calcular_agua">
+            <h4 id="palavra_cal_agua"></h4>
+            <img class="icon_logo" src="../iconaltura.webp">
+        </button>
+
+    </div>
+    <div class="conteiner">
+    <div class="div_central">
+        <h1 class="titulo_superior">Calculadora IMC</h1>
+        <div class="bola_decoracao_canto2"></div>
+
+        <div class="div_da_calculadora">
+            
+            <div>
+
+                <h3 class="informa_input">Informe seu peso(kg)</h3>
+            <input id="input_peso" type="text" class="input_peso_cs">
+            <br>
+            <h3 class="informa_input">Informe sua altura(metro e centimetros)</h3>
+            <input id="input_altura" type="text" class="input_altura_cs">
+            <h2 class="informa_input">Resultado</h2>
+            <p  id="input_resultado" type="text" class="input_resultado_cs" ></p>
+            <button id="butao_enviar_input" class="enviar_valor_input">Calcular</button>
+
+
+            </div>
+
+        </div>
+    </div>
+     </div>
+</body>
+</html>

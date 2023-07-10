@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    background-color: white;
+    overflow-y: hidden;
+}
+
+.conteiner {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_central {
+    display: flex;
+    height: 750px;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.titulo_superior {
+    color: rgb(50, 155, 242);
+    height: 50px;
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+.div_da_calculadora {
+    display: flex;
+    height: 550px;
+    width: 100%;
+    background-color: rgb(225, 222, 222);
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input_peso_cs {
+    display: flex;
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+    
+}
+
+.input_altura_cs {
+    display: flex;
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+
+}
+
+.informa_input {
+    display: flex;
+    margin-left: 20px;
+}
+
+.enviar_valor_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    border: 2px solid yellowgreen;
+    background-color: rgb(28, 235, 28);
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.icon_logo {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.div_resultado {
+    display: flex;
+    height: 280px;
+    width: 600px;
+    background-color: rgb(3, 213, 213);
+    margin-left: 35px;
+    flex-direction: row;
+}
+
+.div_consumo_ideal {
+    display: flex;
+    height: 260px;
+    width: 230px;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.h1_consumo_ideal {
+    color: white;
+     margin-left: 10px;
+}
+
+.input_resultado_cs {
+    color: white;
+    margin-left: 10px;
+}
+
+.icon_garrafa {
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.icon_copo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.div_engloba_icon_garrafa {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    margin-top: 90px;
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+.div_icon_copo {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    margin-top: 90px;
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+.texto_garrafa {
+    color: white;
+}
+
+.texto_copo {
+    color: white;
+}
+
+.div_linha_separatoria {
+    display: flex;
+    height: 150px;
+    width: 3px;
+    background-color: black;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calcular quantidade de água por dia</title>
+    <link rel="stylesheet" href="calcularagua.css">
+    <script src="calcularagua.js" defer=""></script>
+</head>
+<body>
+    <div class="conteiner">
+    <div class="div_central">
+        <h1 class="titulo_superior">Calculadora Quantidade de Água por dia</h1>
+
+        <div class="div_da_calculadora">
+            
+            <div>
+                <h3 class="informa_input">Informe seu peso(kg)</h3>
+            <input id="input_peso" type="text" class="input_peso_cs">
+            <br>
+            <button id="butao_enviar_input" class="enviar_valor_input">Calcular</button>
+            <h2 class="informa_input">Resultado</h2>
+            </div>
+
+            <div class="div_resultado">
+
+                <div class="div_icon_copo">
+                    <p class="texto_copo" id="texto_quantidade_copo"></p>
+                    <img class="icon_copo" src="../copo.webp">
+               </div>
+
+                <div class="div_consumo_ideal">
+                    <h3 class="h1_consumo_ideal">Seu consumo ideal é:</h3>
+                    <p  id="input_resultado" type="text" class="input_resultado_cs" ></p>
+                    <div class="div_linha_separatoria"></div>
+                </div>
+               <div class="div_engloba_icon_garrafa">   
+                <p class="texto_garrafa" id="texto_quantidade_garrafa"></p>
+                <img class="icon_garrafa" src="../garrafa.webp">
+               </div>
+                
+            </div>
+
+        </div>
+    </div>
+     </div>
+</body>
+</html>

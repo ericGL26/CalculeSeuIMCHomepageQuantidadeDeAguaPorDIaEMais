@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    background-color: white;
+    overflow-y: hidden;
+}
+
+.conteiner {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_central {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.titulo_superior {
+    color: rgb(50, 155, 242);
+    height: 50px;
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.bola_decoracao_canto2 {
+    position: absolute;
+	width: 200px;
+	height: 321px;
+	left: -29px;
+	top: 495px;
+	background: #996DFF;
+	filter: blur(200px);
+}
+
+.div_da_calculadora {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(225, 222, 222);
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input_peso_cs {
+    display: flex;
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+    
+}
+
+.input_altura_cs {
+    display: flex;
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+
+}
+
+.input_resultado_cs {
+    display: flex;
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+
+}
+
+.informa_input {
+    display: flex;
+    margin-left: 20px;
+}
+
+.logo_meu_site {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.enviar_valor_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    border: 2px solid yellowgreen;
+    background-color: rgb(28, 235, 28);
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+.botao_barra_lateral {
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background-color: transparent;
+    border: 0px solid;
+    margin-bottom: 40px;
+}
+
+.barra_lateral_css {
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 100px;
+    background-color: rgb(50, 155, 242);
+    z-index: 0;
+    transition: width 1.5s;
+    flex-direction: column;
+}
+
+.botao_calcular_agua {
+    display: flex;
+    height: 20px;
+    width: 250px;
+    color: greenyellow;
+    margin-left: 5px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    margin-bottom: 80px;
+}
+
+.icon_logo {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}

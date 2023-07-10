@@ -1,0 +1,123 @@
+body {
+	margin: 0;
+	overflow-y: hidden;
+}
+
+.conteiner {
+	display: flex;
+	background-color: rgb(228, 227, 227);
+	height: 100vh;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.caixa_do_login {
+	display: flex;
+	height: 730px;
+	width: 450px;
+	flex-direction: column;
+	background-color: rgb(96, 94, 94);
+}
+
+.titulo_da_caixa_do_login {
+	color: white;
+	margin-left: 20px;
+}
+
+.div_do_email {
+	display: flex;
+	height: 150px;
+	width: 450px;
+	flex-direction: column;
+}
+
+.indicacao_email {
+	color: white;
+	margin-left: 20px;
+}
+
+.input_email_cadastro {
+	height: 40px;
+	width: 220px;
+	color: black;
+	border: solid 2px  gray;
+	background-color: #212121;
+	margin-left: 20px;
+}
+
+.div_da_senha {
+	display: flex;
+	height: 125px;
+	width: 450px;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.indicacao_senha {
+	color: white;
+	margin-left: 20px;
+}
+
+.input_senha {
+	height: 100px;
+	width: 220px;
+	color: black;
+	border: solid 2px gray;
+	background-color: #212121;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.botao_de_entrar {
+	display: flex;
+	color: black;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 300px;
+	margin-left: 70px;
+	background-color: rgb(201, 197, 197);
+	border: 2px solid white;
+}
+.sombreado_roxo_a {
+	position: absolute;
+	width: 200px;
+	height: 321px;
+	left: -29px;
+	top: 495px;
+	background: black;
+	filter: blur(200px);
+	background-color: black;
+}
+
+.divdonome{
+	height: 40px;
+	width: 220px;
+}
+
+.input_nome {
+	height: 40px;
+	width: 220px;
+	color: black;
+	border: solid 2px gray;
+	background-color: #212121;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+.indicacao_Nome {
+	color: white;
+	margin-left: 20px;
+}
+
+.input_foto {
+	display: flex;
+	height: 40px;
+	width: 220px;
+	color: black;
+	border: solid 2px gray;
+	background-color: #212121;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.conteiner {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(135, 206, 235);
+    align-items: center;
+    justify-content: center;
+}
+
+.div_central {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_superior {
+    color: black;
+    height: 120px;
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.engloba_caixa_inputs {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 100vh;
+    background-color: rgb(222, 222, 222);
+}
+
+.input_selecionar_sexo_menino {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    align-items: center;
+
+}
+
+.input_selecionar_sexo_menina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+
+}
+
+.engloba_inputs {
+    display: flex;
+    align-items: center;
+    height: 130px;
+    width: 500px;
+    flex-direction: row;
+    background-color: rgb(222, 222, 222);
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+    margin-right: 300px;
+}
+
+.indicacao_inputs {
+    color: black;
+    margin-right: 280px;
+}
+
+.div_deixar_inputs_alinhados {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 30px;
+    background-color: black;
+}
+
+.div_engloba_input_altura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(225, 222, 222);
+    flex-direction: column;
+    margin-right: 460px;
+    margin-top: 100px;
+}
+
+.input_altura_mae {
+    display: flex;
+    height: 30px;
+    width: 150px;
+    margin-right: 120px;
+}
+
+.input_altura_pai {
+    display: flex;
+    height: 30px;
+    width: 150px;
+    margin-right: 120px;
+}
+
+.indica_input_familia {
+    display: flex;
+    margin-right: 130px;
+}
+
+.div_resultado {
+    display: flex;
+    height: 400px;
+    width: 800px;
+    background-color: rgb(135, 206, 235);
+    margin-right: 630px;
+    flex-direction: column;
+}
+
+.titulo_div_resultado {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.div_engloba_resultado {
+    display: flex;
+    height: 250px;
+    width: 500px;
+    background-color: rgb(135, 206, 235);
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+.resultado_cs {
+    display: flex;
+    margin-left: 20px;
+}
+
+.linha_div {
+    display: flex;
+    height: 2px;
+    width: 500px;
+    background-color: black;
+}

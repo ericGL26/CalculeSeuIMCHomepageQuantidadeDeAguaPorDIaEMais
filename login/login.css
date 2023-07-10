@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	overflow-y: hidden;
+}
+
+.conteiner {
+	display: flex;
+	background-color: white;
+	height: 100vh;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.caixa_do_login {
+	display: flex;
+	height: 600px;
+	width: 450px;
+	flex-direction: column;
+	background-color: rgb(85, 84, 84);
+}
+
+.titulo_da_caixa_do_login {
+	color: white;
+	margin-left: 20px;
+}
+
+.div_do_email {
+	display: flex;
+	height: 150px;
+	width: 450px;
+	flex-direction: column;
+}
+
+.indicacao_email {
+	color: #ababab;
+	margin-left: 20px;
+}
+
+.input_email {
+	height: 40px;
+	width: 220px;
+	color: black;
+	border: solid 2px white;
+	background-color: #212121;
+	margin-left: 20px;
+}
+
+.div_da_senha {
+	display: flex;
+	height: 300px;
+	width: 450px;
+	flex-direction: column;
+}
+
+.indicacao_senha {
+	color: #ababab;
+	margin-left: 20px;
+}
+
+.input_senha {
+	height: 40px;
+	width: 220px;
+	color: black;
+	border: solid 2px white;
+	background-color: #212121;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+.botao_de_entrar {
+	display: flex;
+	color: black;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 300px;
+	margin-left: 70px;
+	background-color: white;
+}
+.sombreado_roxo_a {
+	position: absolute;
+	width: 200px;
+	height: 321px;
+	left: -29px;
+	top: 495px;
+	background: black;
+	filter: blur(150px);
+}
+
+.si {
+	color: red;
+	margin-left: 20px;
+}
+
+.ie {
+	color: red;
+	margin-left: 20px;
+}

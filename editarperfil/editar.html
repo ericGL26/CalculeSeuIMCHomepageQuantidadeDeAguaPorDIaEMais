@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mudar perfil | Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="editar.css">
+	<script src="editar.js" defer="" type="text/javascript"></script>
+</head>
+<body>
+
+	<div class="conteiner">
+		<div class="sombreado_roxo_a"></div>
+		<div class="caixa_do_login">
+			<h1 class="titulo_perfil">Mudar perfil</h1>
+			<div class="sombreado_roxo_a"></div>
+			<h2 class="titulo_paleta">Mudar cor</h2>
+			<div class="div_paleta_borda_perfil">
+				<button id="butao_paleta_vermelha" class="paleta_vermelha"></button>
+				<button id="butao_paleta_amarela" data-value="yellow" class="paleta_amarela"></button>
+				<button id="butao_paleta_verde" class="paleta_verde"></button>
+			</div>
+
+			<div class="div_do_email">
+				<h2 class="indicacao_email">E-mail</h2>
+				<input id="input_email"  class="input_email_cadastro" type="text">
+			</div>
+
+			<div class="div_input_foto">
+				<h2 class="indicacao_foto">Mudar Foto</h2>
+				<input id="input_mudar_foto" class="input_foto" type="file">
+			</div>
+
+			<div class="div_da_senha">
+				<h2 class="indicacao_senha">Senha</h2>
+				<input id="input_senha" class="input_senha" type="text" name="">
+			</div>
+
+
+			<div class="divdonome">
+				<h2 class="indicacao_Nome">Nome</h2>
+				<input id="input_name" class="input_nome" type="" name="" value="">
+				<br>
+				<button id="butao_enviar" onclick="pegarvalorinputs()" class="botao_de_entrar">Comfirmar</button>
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>

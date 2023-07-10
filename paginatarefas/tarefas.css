@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+}
+
+.conteiner {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.barra_interativa_lateral {
+    display: flex;
+    height: 100vh;
+    width: 80px;
+    background-color: rgb(3, 250, 3);
+    transition: width 0.5s ease-in-out;
+
+}
+
+.butao_expandir_barra_lateral {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(3, 250, 3);
+}
+
+.logo_superior {
+    display: flex;
+	display: flex;
+    height: 90px;
+    width: 90px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.div_central {
+    display: flex;
+    margin-top: 120px;
+    height: 600px;
+    width: 1050px;
+    background-color: #D3D3D3;
+    flex-direction: row;
+}
+
+
+.input_checkbox {
+    display: flex;
+    height: 60px;
+    width: 60px;
+}
+
+.input_texto {
+    display: flex;
+    height: 40px;
+    width: 300px;
+    border: 2px solid yellow;
+}
+
+.engloba_texto_checkbox {
+    display: flex;
+    height: 100px;
+    width: 450px;
+    background-color: #D3D3D3;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.input_checkbox2 {
+    display: flex;
+    height: 60px;
+    width: 60px;
+}
+
+.input_texto2 {
+    display: flex;
+    height: 40px;
+    width: 300px;
+    border: 2px solid yellow;
+}
+
+.engloba_texto_checkbox2 {
+    display: flex;
+    height: 100px;
+    width: 450px;
+    background-color: #D3D3D3;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_lateral_da_caixa_central {
+    display: flex;
+    height: 600px;
+    width: 450px;
+    background-color: greenyellow;
+    flex-direction: column;
+}
+
+
+.input_texto3 {
+    display: flex;
+    height: 40px;
+    width: 300px;
+    border: 2px solid yellow;
+}
+
+.engloba_texto_checkbox3 {
+    display: flex;
+    height: 100px;
+    width: 450px;
+    background-color: #D3D3D3;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_checkbox3 {
+    display: flex;
+    height: 60px;
+    width: 60px;
+}
+
+.input_texto4 {
+    display: flex;
+    height: 40px;
+    width: 300px;
+    border: 2px solid yellow;
+}
+
+.engloba_texto_checkbox4 {
+    display: flex;
+    height: 100px;
+    width: 450px;
+    background-color: #D3D3D3;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_checkbox4 {
+    display: flex;
+    height: 60px;
+    width: 60px;
+}
+
+.input_texto5 {
+    display: flex;
+    height: 40px;
+    width: 300px;
+    border: 2px solid yellow;
+}
+
+.engloba_texto_checkbox5 {
+    display: flex;
+    height: 100px;
+    width: 450px;
+    background-color: #D3D3D3;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_checkbox5 {
+    display: flex;
+    height: 60px;
+    width: 60px;
+}
+
+.input_texto6 {
+    display: flex;
+    height: 40px;
+    width: 300px;
+    border: 2px solid yellow;
+}
+
+.engloba_texto_checkbox6 {
+    display: flex;
+    height: 100px;
+    width: 450px;
+    background-color: #D3D3D3;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_checkbox6 {
+    display: flex;
+    height: 60px;
+    width: 60px;
+}
+
+.div_explicando_pagina {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    border: 2px solid black;
+}

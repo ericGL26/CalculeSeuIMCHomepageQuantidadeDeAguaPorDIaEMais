@@ -1,0 +1,118 @@
+body {
+	height: 635px;
+	width: 100%;
+	margin: 0;
+	overflow-y: hidden;
+}
+/*decoração*/
+.conteiner {
+	height: 100vh;
+	width: 100%;
+	background-color: white;
+}
+
+.sombreado_roxo_a {
+	position: absolute;
+	width: 200px;
+	height: 321px;
+	left: -29px;
+	top: 495px;
+	background: black;
+	filter: blur(170px);
+	background-color: black;
+}
+
+.sombreado_roxo_b {
+	height: 300px;
+	width: 300px;
+	background-color: black;
+	margin-left: 800px;
+	border-radius: 500px;
+	background: black;
+	filter: blur(170px);
+}
+/*Decoração acaba aqui*/
+
+/*Parte superior*/
+
+.parte_superior {
+	display: flex;
+	width: 100%;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(213, 211, 211);
+	margin-bottom: 20px;
+}
+
+.caixa_central_da_parte_superior {
+	display: flex;
+	height: 50px;
+	width: 570px;
+	margin-left: 100px;
+	align-items: center;
+	justify-content: center;
+}
+
+.opcoes {
+	color: black;
+	margin-left: 30px;
+	text-decoration: none;
+}
+
+.butao_pegar_meu_cafe {
+	display: flex;
+	height: 45px;
+	width: 200px;
+	color: black;
+	background-color: rgb(213, 211, 211);
+	border: 2px solid purple;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	margin-left: 60px;
+	text-decoration: none;
+	align-content: center;
+}
+
+/*Parte superior acaba aqui*/
+/*Corpo*/
+
+.titulo {
+	display: flex;
+	height: 500px;
+	width: 700px;
+	margin-left: 300px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.link_menu {
+	color: black;
+	margin-left: 30px;
+	text-decoration: none;
+}
+
+.h1_great_coffe {
+	color: black;
+	font-family: 'Angular One', sans-serif;
+}
+
+.tema {
+	display: flex;
+	height: 40px;
+	width: 40px;
+	background-color: black;
+	margin-left: 50px;
+	border: solid 2px purple;
+}
+
+.rocket {
+	display: flex;
+	display: flex;
+    height: 90px;
+    width: 90px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
